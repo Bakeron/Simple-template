@@ -1,0 +1,61 @@
+footer {
+    margin-top: 30px;
+    aside {
+        width: 15%;
+        display: inline-block;
+        vertical-align: top;
+        min-height: 400px;
+    }
+    section {
+        display: inline-block;
+        width: 76%;
+        margin-left: 8%;
+        header {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            h3 {
+                background-color: grey;
+                margin-top: 0;
+                width: 30%;
+            }
+        }
+        footer {
+            background-color: grey;
+        }
+    }
+}
+
+@media screen and (max-width: 1199px) { 
+    footer h3 {
+        font-size: 15px; 
+    }
+}
+
+@media screen and (max-width: 999px) { 
+    footer {
+        aside {
+            width: 20%;
+        }
+        section {
+            margin-left: 3%;
+        }
+        h3 {
+            font-size: 15px; 
+        }
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    footer {
+        aside {
+            width: 30%;
+        }
+        section {
+            width: 65%;
+            header h3 {
+                width: 40%;
+            }
+        }
+    }
+}

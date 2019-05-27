@@ -1,0 +1,11 @@
+section.up {
+    .box {
+        width: 100%;
+        h2 {
+            background-color: grey;
+            width: 460px;
+            @media screen and (max-width: 768px) { width: auto; }
+            margin: 0 auto;
+        }
+    }
+}

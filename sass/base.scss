@@ -1,0 +1,43 @@
+.container, body > header {
+    margin: 50px 0 0 240px;
+    width: calc(100% - 270px);
+    .box:not(.short) {
+        background-color: grey;
+    }
+    h1, h2, h3 {
+        padding: 15px;
+    }
+}
+
+nav {
+    background-color: grey;
+}
+
+@media screen and (max-width: 1199px) { 
+    .container, body > header {
+        margin: 50px 0 0 200px;
+        width: calc(100% - 240px);
+    }
+}
+
+@media screen and (max-width: 999px) { 
+    .container, body > header {
+        margin: 50px 0 0 170px;
+        width: calc(100% - 185px);
+    }
+    
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    .container, body > header {
+        margin: 15px 0 0 90px;
+        width: calc(100% - 100px);
+    }
+}
